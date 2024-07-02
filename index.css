@@ -13,8 +13,8 @@ body{
     border: 3px solid rgb(238, 37, 1);
     background-color:white;
     margin-left: 700px;
-    height: 450px;
-    width: 500px;
+    height: 490px;
+    width: 550px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
 }
@@ -30,7 +30,7 @@ button{
     background-color:rgb(109, 240, 240);
     color: black;
     width: 140px;
-    height: 35px;
+    height: 30px;
     font-size: 18px;
     font-weight: bold;
     padding:5px 0px 0px 20px;
@@ -47,4 +47,16 @@ button:active {
 #message{
     font-size: 25px;
     margin:10px 0px;
+    color: red;
+}
+#money{
+    font-size: 29px;
+    color: rgb(210, 210, 60);
+    text-shadow: 1px -1px 1px black;
+}
+#restart{
+    padding-left: 38px;
+}
+#newcard{
+    padding-left:27px ;
 }
