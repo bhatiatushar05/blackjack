@@ -52,16 +52,16 @@ function renderGame(){
         message = "Do u wanna draw another card?"
     }
     else if(sum === 21){
-        message = "You got BLACKJACK!!!"
+        message = "You got BLACKJACK!!!" + " " + "Won $200 "
         hasBlackJack = true
         information.money += 200
     }
     else{
-        message = "You're out of the game..."
+        message = "You're out of the game..." + "lost $100"
         isAlive = false
         information.money -= 100
     }
-    if (information.money <= -300){
+    if (information.money <= 0){
         message = "You're out of money"
         isAlive = false
     }    
